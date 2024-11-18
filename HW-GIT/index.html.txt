@@ -3,13 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HW1</title>
+  <title>HW1</title> 
 </head>
 <body>
     <h1>WELCOME!</h1>
 
     <!-- vertical-grayscale-shot-spangled-kookaburra-bird.jpg -->
     <img src="images/vertical-grayscale-shot-spangled-kookaburra-bird.jpg" alt=""
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
 
 </body>
 </html>
