@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW2</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body>
+    <h1>Login</h1>
+    <fieldset>
+        <legend>Authorization</legend>
+        <form>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"><br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </fieldset>
+
+    <h1>Feedback</h1>
+    <fieldset>
+        <legend>Feedback</legend>
+        <form>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="email-feedback">Email:</label>
+            <input type="email" id="email-feedback" name="email-feedback"><br><br>
+            <label for="pros">Pros:</label>
+            <input type="text" id="pros" name="pros"><br><br>
+            <label for="cons">Cons:</label>
+            <input type="text" id="cons" name="cons"><br><br>
+            <label for="overview">Overview:</label>
+            <textarea id="overview" name="overview"></textarea><br><br>
+            <label for="rating">Rating:</label>
+            <input type="number" id="rating" name="rating" min="1" max="5"><br><br>
+            <input type="checkbox" id="newsletter" name="newsletter">
+            <label for="newsletter">Subscribe me to the newsletter</label><br><br>
+            <button type="submit">Send</button>
+        </form>
+    </fieldset>
+
+    <h1>Registration</h1>
+    <fieldset>
+        <legend>Registration</legend>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="surname">Surname:</label>
+            <input type="text" id="surname" name="surname"><br><br>
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label><br><br>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob"><br><br>
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option disabled selected>Select Country</option>
+                <option value="USA">USA</option>
+                <option value="Ukraine">Ukraine</option>
+            </select><br><br>
+            <label for="file">Upload Resume:</label>
+            <input type="file" id="file" name="file"><br><br>
+            <label for="password-reg">Password:</label>
+            <input type="password" id="password-reg" name="password-reg"><br><br>
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password"><br><br>
+            <label for="email-reg">Email:</label>
+            <input type="email" id="email-reg" name="email-reg"><br><br>
+            <input type="checkbox" id="terms" name="terms">
+            <label for="terms">I agree to the terms and conditions</label><br><br>
+            <button type="submit">Register</button>
+        </form>
+    </fieldset>
+
+    <h1>Invoice Table</h1>
+    <fieldset>
+        <legend>Invoice</legend>
+        <table>
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Paperclips (Box)</td>
+                    <td>100</td>
+                    <td>$1.15</td>
+                    <td>$115.00</td>
+                </tr>
+                <tr>
+                    <td>Paper</td>
+                    <td>10</td>
+                    <td>$45.99</td>
+                    <td>$459.90</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Subtotal:</td>
+                    <td>$610.88</td>
+                </tr>
+                <tr>
+                    <td colspan="3">Tax (7%):</td>
+                    <td>$42.76</td>
+                </tr>
+                <tr>
+                    <td colspan="3">Total:</td>
+                    <td>$653.64</td>
+                </tr>
+            </tfoot>
+        </table>
+    </fieldset>
+</body>
+</html>

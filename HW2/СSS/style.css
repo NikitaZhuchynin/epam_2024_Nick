@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+fieldset {
+    border: 2px solid blue;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+label {
+    display: inline-block;
+    width: 120px;
+}
+
+input, textarea, select, button {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: calc(100% - 130px);
+}
+
+textarea {
+    resize: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
