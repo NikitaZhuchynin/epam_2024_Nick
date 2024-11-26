@@ -1,19 +1,19 @@
 .calendar-section {
     position: absolute;
-    top: 20px; /* Расположить в верхней части */
-    right: 20px; /* Прижать к правому краю */
+    top: 20px; 
+    right: 20px; 
 }
 
 body {
     position: relative;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom, #87CEEB 65%, #228B22 35%); /* Небо (65%) и газон (35%) */
+    background: linear-gradient(to bottom, #87CEEB 65%, #228B22 35%); 
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
-    align-items: flex-start; /* Выравнивание содержимого по верхнему краю */
-    height: 100vh; /* Высота экрана */
+    align-items: flex-start; 
+    height: 100vh; 
 }
 
 .calendar {
@@ -88,9 +88,9 @@ body {
 
 .house-section {
     position: absolute;
-    bottom: 15%; /* Поднять дом выше газона */
+    bottom: 15%; 
     left: 50%;
-    transform: translateX(-50%); /* Центрирование по горизонтали */
+    transform: translateX(-50%); 
 }
 
 .house {
